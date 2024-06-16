@@ -1,2 +1,10 @@
-# values-in-for-loop.c
-print the values in for loop
+ #include<stdio.h>
+int main()
+{
+    int n;
+    scanf("%d",&n);
+    for(int i=1;i<=n;i++)
+    {
+        printf("%d",i);
+    }
+}
